@@ -1,0 +1,72 @@
+/* selector por clase */
+/*
+
+h1.titulo{    border: 1px solid black;
+    /* x y intensidad color
+*/
+
+
+/* [nombre]
+[nombre=valor]
+[nombre~=valor]
+[nombre*=valor]
+[nombre^=valor]
+[nombre$=valor] */
+/*
+
+p[lang="en"]{
+    background-color: rgb(184, 200, 32);
+} */
+
+/* que termine con org */
+/* a[href$="org"]{
+    background-color: yellowgreen;
+} */
+
+/* signique que inicie con un gato
+altgr/simbolo/espacio */
+/* a[href^="#"]{
+    background-color: aqua;
+} */
+
+/* en cualquier parte que este youtube */
+/* a[href*="youtube"]{
+    font-size: 45px;
+} */
+
+/* busca org asi exactamente */
+/* a[href~="org"]{
+    background-color: black;
+} */
+
+/*
+selectores
+desendientes
+hijos directos
+hermano adyacente
+hermano general >de su etiqueta hacia abajo
+*/
+
+/* selector de desendientes */
+/* main p{
+    border-bottom: 1px dashed black;
+    background-color: brown;
+} */
+
+/* Hijo directo */
+/* main > p{
+    border-bottom: 1px dashed black;
+    background-color: brown;
+} */
+
+/* hermano adyacente */
+/* h3 + p{
+    border-bottom: 1px dashed black;
+    background-color: brown;
+} */
+
+/* hermano general */
+h2 ~ h3 {
+    border-bottom: 1px dashed black;
+    background-color: brown;
+}
